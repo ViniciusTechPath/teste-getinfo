@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const dropdown = document.querySelector('.dropdown');
 
     profileToggle.addEventListener('click', function () { // verificar
-        const isExpanded = profileToggle.getAttribute('aria-expanded') === 'true';
+        const isExpanded = profileToggle.getAttribute('aria-expanded') === 'false';
 
         dropdownIcon.classList.toggle('bi-chevron-up', !isExpanded);
         dropdownIcon.classList.toggle('bi-chevron-down', isExpanded);
