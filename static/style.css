@@ -125,7 +125,8 @@ body {
     height: 30px !important;
     width: 50%;
     padding: 0;
-    margin: 0 10px 0 10px;
+    display: inline-block;
+    margin: 0 5px 0 5px;
 }
 
 @media (max-width: 768px) {
