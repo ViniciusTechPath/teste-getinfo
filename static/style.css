@@ -122,9 +122,10 @@ body {
 
 .btn-lg {
     font-size: 12pt !important;
-    width: 100%;
     height: 30px !important;
+    width: 50%;
     padding: 0;
+    margin: 0 10px 0 10px;
 }
 
 @media (max-width: 768px) {
